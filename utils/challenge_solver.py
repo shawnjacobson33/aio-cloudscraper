@@ -3,7 +3,6 @@ import html
 import re
 from collections import OrderedDict
 
-import js2py
 import aiohttp
 
 

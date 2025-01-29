@@ -5,7 +5,7 @@ import aiohttp
 
 class ChallengeIdentification:
     
-    def __init__(self, resp: aiohttp.Clientself.response, resp_text: str):
+    def __init__(self, resp: aiohttp.ClientResponse, resp_text: str):
         self.resp = resp
         self.resp_text = resp_text
         
